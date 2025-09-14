@@ -10,19 +10,20 @@ int main(int argc, char** argv) {
 	b=25;
 	r=a+b;
 	
-	std::cout << "El resultado de sumar %d y %d es: %d" >> << endl << a << b << r << std::endl;
-	
+	std::cout << "The result of adding %d y %d es: %d" >> << endl << a << b << r << std::endl;
 	if(r == 40){
-		printf("El resultado %d si es igual = 40");
+		printf("The result %d if its equal = 40");
 	}
 	else{
 		if(r < 40){
-			printf("El resultado %d si es < 40",r);	
+			printf("The result %d if its < 40",r);	
 		}
 		else{
-			printf("El resultado si es > 40",r);
+			printf("The  result it is > 40",r);
 		}
 	}
+	
 	return 0;
 }
+
 
